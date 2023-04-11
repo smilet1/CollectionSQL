@@ -1,14 +1,14 @@
-package com.digdes.school.model;
+package com.digdes.school.config;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class ConfigTable {
     public final static Map<String, String> table = new HashMap<>(Map.of(
-            "id", "long",
-            "lastName", "string",
-            "cost", "double",
-            "age", "long",
-            "active", "boolean"
+            "id".toLowerCase(), "long",
+            "lastName".toLowerCase(), "string",
+            "cost".toLowerCase(), "double",
+            "age".toLowerCase(), "long",
+            "active".toLowerCase(), "boolean"
     ));
 }
