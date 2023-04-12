@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="580895eb-59a6-4567-98c9-bcfb10c453e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/digdes/school/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/digdes/school/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/digdes/school/JavaSchoolStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/digdes/school/JavaSchoolStarter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/digdes/school/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/digdes/school/Parser.java" afterDir="false" />
@@ -32,13 +31,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2NbDSNDovlCx1sB9cIFU7hZmHgn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,6 +47,11 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -91,10 +88,19 @@
       <workItem from="1680728121907" duration="2308000" />
       <workItem from="1681036555145" duration="7539000" />
       <workItem from="1681126685974" duration="12941000" />
+      <workItem from="1681242283748" duration="334000" />
+      <workItem from="1681248527586" duration="2993000" />
+      <workItem from="1681294860437" duration="4125000" />
+      <workItem from="1681299509447" duration="6266000" />
+      <workItem from="1681311257994" duration="2116000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

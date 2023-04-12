@@ -3,8 +3,8 @@ package com.digdes.school.model;
 // Объект хранящий результат парсинга операций сравнения
 public class OperationElem {
     public String firsOperand;
-    public String secondOperand;
-    public Object secondOperandType;
+    public Object secondOperand;
+    public String secondOperandType;
     public String operation;
 
     public OperationElem() {
@@ -14,19 +14,26 @@ public class OperationElem {
         this.operation = "";
     }
 
+    //Проверяет соответсвие типов firstOperand и secondOperand
     public void type() throws Exception {
-
-        if(secondOperand.charAt(0) == '\'' && secondOperand.charAt(secondOperand.length()-1) == '\''){
-
+        String stringSecondOperand = (String) secondOperand;
+        if(stringSecondOperand.charAt(0) == '\'' && stringSecondOperand.charAt(stringSecondOperand.length()-1) == '\''){
+            secondOperand = stringSecondOperand.replace("'","");
             secondOperandType = "string";
             return;
         }
-        if(secondOperand.equals("true") || secondOperand.equals("false")){
+        if(stringSecondOperand.equals("null")){
+            secondOperand = null;
+            secondOperandType = "null";
+            return;
+        }
+        if(stringSecondOperand.equals("true") || stringSecondOperand.equals("false")){
+            secondOperand = Boolean.parseBoolean(stringSecondOperand);
             secondOperandType = "boolean";
             return;
         }
         try{
-            Long.valueOf(secondOperand);
+            secondOperand = Long.parseLong(stringSecondOperand);
             secondOperandType="long";
             return;
         }catch(Exception e){
@@ -34,7 +41,7 @@ public class OperationElem {
         }
 
         try{
-            Double.valueOf(secondOperand);
+            secondOperand = Double.parseDouble(stringSecondOperand);
             secondOperandType="double";
         }
         catch (RuntimeException e){
